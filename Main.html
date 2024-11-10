@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhóm AHTNHC - 12A9</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <audio id = "background-audio" autoplay loop>
+        <source src="Nhạc phim Đi Giữa Trời Rực Rỡ - Ngô Lan Hương (MV Lyrics) - SK Pictures (youtube).mp3" type="audio/mpeg"> Not Working
+    </audio>
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div class="panel">
+            <h1 class="jj">
+                <span>DANH SÁCH</span> 
+                <span>THÀNH VIÊN</span>
+            </h1>
+            <h1 class="jj">
+                <span>DANH SÁCH</span> 
+                <span>THÀNH VIÊN</span>
+            </h1>
+        </div>  
+        <div class = "box">
+            <div class = "box-1" onclick="openPage(event, 'HTML/tv1.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+            <div class = "box-2" onclick="openPage(event, 'HTML/tv2.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+            <div class = "box-3" onclick="openPage(event, 'HTML/tv3.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+            <div class = "box-4" onclick="openPage(event, 'HTML/tv4.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+            <div class = "box-5" onclick="openPage(event, 'HTML/tv5.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+            <div class = "box-6" onclick="openPage(event, 'HTML/tv6.html')">
+                <i class="fa-sharp-duotone fa-solid fa-user"></i>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openPage(event, pageName) {
+            event.preventDefault();
+            window.location.href = pageName
+        }
+
+    </script>
+</body>
+</html>
